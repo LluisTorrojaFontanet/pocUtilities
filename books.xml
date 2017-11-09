@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+    <book>
+        <name>SCJP</name>
+        <author>Kathy Sierra</author>
+        <publisher>Tata McGraw Hill</publisher>
+        <isbn>856-545456736</isbn>
+    </book>
+    <book>
+        <name>Java Persistence with Hibernate</name>
+        <author>Christian Bauer</author>
+        <publisher>Manning</publisher>
+        <isbn>978-3832180577</isbn>
+    </book>
+</books>

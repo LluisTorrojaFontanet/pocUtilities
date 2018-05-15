@@ -40,6 +40,28 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>ad.cass</groupId>
+			<artifactId>CASSCoreEJB</artifactId>
+			<version>0.3.9-b153</version>
+			<classifier>client</classifier>
+		</dependency>
+		<dependency>
+			<groupId>ad.cass</groupId>
+			<artifactId>CASSCoreBasic</artifactId>
+			<version>3.4.3-b000</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.10.19</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<artifactId>jaxb2-basics</artifactId>
+			<version>0.11.0</version>
+		</dependency>
 	</dependencies>
 
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->

@@ -1,4 +1,4 @@
-package ad.cass.test.jaxb;
+package ad.poc.test.jaxb;
 
 import java.io.File;
 

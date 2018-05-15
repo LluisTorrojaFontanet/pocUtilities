@@ -1,4 +1,4 @@
-package ad.cass.poc;
+package ad.poc;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package ad.cass.poc.jaxb;
+package ad.poc.jaxb;
 
 import java.io.BufferedWriter;
 import java.io.File;

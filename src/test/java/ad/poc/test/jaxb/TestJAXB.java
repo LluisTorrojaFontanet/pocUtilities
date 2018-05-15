@@ -1,16 +1,14 @@
-package ad.cass.test.jaxb;
+package ad.poc.test.jaxb;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+
 import javax.xml.bind.JAXBException;
 
 import org.junit.Test;
 
-import ad.cass.test.jaxb.JAXBXMLHandler;
 import junit.framework.TestCase;
  
 public class TestJAXB extends TestCase  {
@@ -20,7 +18,7 @@ public class TestJAXB extends TestCase  {
 	 * @throws IOException 
 	 */
 	@Test
-    public void testMarshall() throws IOException {
+    public void testUnMarshall() throws IOException {
         
 		System.out.println("START (" + Thread.currentThread().getStackTrace()[1].getMethodName() + ") method");
 		

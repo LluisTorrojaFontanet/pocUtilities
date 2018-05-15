@@ -1,4 +1,4 @@
-package ad.cass.poc;
+package ad.poc;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ad.cass</groupId>
 	<artifactId>pocUtilities</artifactId>
 	<version>0.1.0</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>pocUtilities/</name>
 	<url>http://www.cass.ad</url>
 	<description>Utility POJOS proof of concept</description>
@@ -62,11 +63,23 @@
 			<artifactId>jaxb2-basics</artifactId>
 			<version>0.11.0</version>
 		</dependency>
+		<!-- ad.poc.jackson INICI 2.5.4 i 2.9.7-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<version>2.5.4</version>
+		</dependency>
+		<!-- ad.poc.jackson FI -->
 	</dependencies>
-
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- construccio del package -->
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
 	<build>
 		<plugins>
 			<!-- configuracio compiler -->
@@ -80,5 +93,16 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<modules>
+		<module>pocUtilitiesCodiBarres</module>
+		<module>pocUtilitiesOCR</module>
+		<module>pocUtilitiesJAXB</module>
+		<module>pocUtilitiesJackson</module>
+		<module>pocUtilitiesCoreJava</module>
+		<module>pocUtilitiesImaging</module>
+		<module>pocUtilitiesJavaFX</module>
+		<module>pocUtilitiesScan</module>
+	</modules>
 
 </project>

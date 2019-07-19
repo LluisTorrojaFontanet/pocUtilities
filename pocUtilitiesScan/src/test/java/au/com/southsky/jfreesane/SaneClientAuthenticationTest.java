@@ -9,9 +9,10 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import au.com.southsky.jfreesane.SaneClientAuthentication.ClientCredential;
-
 import com.google.common.io.CharSource;
+
+import ad.au.com.southsky.jfreesane.SaneClientAuthentication;
+import ad.au.com.southsky.jfreesane.SaneClientAuthentication.ClientCredential;
 
 public class SaneClientAuthenticationTest {
 

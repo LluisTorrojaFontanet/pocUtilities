@@ -7,6 +7,21 @@ import com.google.common.io.Closeables;
 import com.google.common.io.Files;
 import com.google.common.net.HostAndPort;
 import com.google.common.util.concurrent.SettableFuture;
+
+import ad.au.com.southsky.jfreesane.FrameType;
+import ad.au.com.southsky.jfreesane.OptionValueConstraintType;
+import ad.au.com.southsky.jfreesane.OptionValueType;
+import ad.au.com.southsky.jfreesane.RangeConstraint;
+import ad.au.com.southsky.jfreesane.SaneDevice;
+import ad.au.com.southsky.jfreesane.SaneException;
+import ad.au.com.southsky.jfreesane.SaneOption;
+import ad.au.com.southsky.jfreesane.SaneParameters;
+import ad.au.com.southsky.jfreesane.SanePasswordProvider;
+import ad.au.com.southsky.jfreesane.SaneSession;
+import ad.au.com.southsky.jfreesane.SaneStatus;
+import ad.au.com.southsky.jfreesane.ScanListener;
+import ad.au.com.southsky.jfreesane.ScanListenerAdapter;
+
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;

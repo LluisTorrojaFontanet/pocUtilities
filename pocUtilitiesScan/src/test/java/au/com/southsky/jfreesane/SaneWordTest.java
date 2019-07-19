@@ -1,6 +1,9 @@
 package au.com.southsky.jfreesane;
 
 import com.google.common.truth.Truth;
+
+import ad.au.com.southsky.jfreesane.SaneWord;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
